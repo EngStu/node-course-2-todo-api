@@ -5,9 +5,9 @@ const {app} = require('./../server');
 const {Todo} = require('./../models/todo');
 
 const todos = [{
-  text: 'First test todo'
+  text: 'demo-1'
 },{
-  text: 'Second test todo'
+  text: 'demo-2'
 }];
 
 beforeEach((done) => {
